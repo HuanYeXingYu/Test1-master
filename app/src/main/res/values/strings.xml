@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="u1_v">U1            (V)</string>
+    <string name="u2_v">U2            (V)</string>
+    <string name="u3_v">U3            (V)</string>
+    <string name="i1">I1</string>
+    <string name="i2">I2</string>
+    <string name="i3">I3</string>
+    <string name="p1">P1</string>
+    <string name="p2">P2</string>
+    <string name="p3">P3</string>
+    <string name="f1">Φ1</string>
+    <string name="f2">Φ2</string>
+    <string name="f3">Φ3</string>
+    <string name="pt">Pt</string>
+    <string name="qt">Qt</string>
+    <string name="f">F</string>
+    <string name="v">(V)</string>
+    <string name="a">(A)</string>
+    <string name="o">(°)</string>
+    <string name="w">(W)</string>
+    <string name="var">(var)</string>
+    <string name="hz">(Hz)</string>
+    <string name="u1">U1</string>
+    <string name="u2">U2</string>
+    <string name="u3">U3</string>
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="电压(V):" />
+
+            <Spinner style="@style/r5_t1" />
+
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="电流(A):" />
+
+            <Spinner style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="相位角:" />
+
+            <Spinner style="@style/r5_t1" />
+
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="采集次数:" />
+
+            <Spinner style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="采集次数:" />
+
+
+            <TextView style="@style/r5_t1" />
+
+            <Button
+                android:layout_weight="1"
+                android:text="开始采集" />
+
+        </TableRow>
+
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="P1(W):" />
+
+            <TextView style="@style/r5_t1" />
+
+
+            <TextView
+                style="@style/r5_t1"
+                android:text=" γ(%):" />
+
+            <TextView style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="P2(W):" />
+
+            <TextView style="@style/r5_t1" />
+
+
+            <TextView
+                style="@style/r5_t1"
+                android:text=" γ(%):" />
+
+            <TextView style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="P3(W):" />
+
+            <TextView style="@style/r5_t1" />
+
+
+            <TextView
+                style="@style/r5_t1"
+                android:text=" γ(%):" />
+
+            <TextView style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="∑P(W):" />
+
+            <TextView style="@style/r5_t1" />
+
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="γ(%):" />
+
+            <TextView style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="---------对称度--------" />
+
+            <Button
+                style="@style/r5_t1"
+                android:text="查看详细" />
+
+
+        </TableRow>
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="电压γ(%):" />
+
+            <TextView
+                style="@style/r5_t1"
+                  />
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="相位γ(°)" />
+
+
+        </TableRow>
+        <TableRow  android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="电流γ(%):" />
+
+            <TextView
+                style="@style/r5_t1"
+                />
+
+            <TextView
+                style="@style/r5_t1"
+                />
+
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>

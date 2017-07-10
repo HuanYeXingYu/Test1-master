@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="tableRow">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="tableRow1">
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#616130</item>
+        <item name="android:textSize">35sp</item>
+
+    </style>
+
+    <style name="tableRow2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#73BF00</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="tableRow3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#EA0000</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="r5_t1">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="radioGro">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selecter_bar</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="radioGroupBut">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/selecter_bar</item>
+
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="marginRow1" >
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="marginRow2" >
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#80FFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+
+
+        >
+
+        <TableRow style="@style/marginRow1">
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/u1" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/v" />
+
+            <TextView
+
+                style="@style/tableRow"
+                android:text="@string/u2" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/v" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/u3" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/v" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow2">
+
+            <TextView
+                android:id="@+id/U1"
+                style="@style/tableRow1"
+
+
+                android:textColor="@color/gry" />
+
+            <EditText
+                android:id="@+id/U2"
+                style="@style/tableRow2"
+                android:hint="0"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/U3"
+                style="@style/tableRow3"
+                android:hint="0"
+                android:textColor="@color/red" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow1">
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/i1" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/a" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/i2" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/a" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/i3" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/a" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow2">
+
+            <EditText
+                android:id="@+id/I1"
+                style="@style/tableRow1"
+                android:textColor="@color/gry" />
+
+            <EditText
+                android:id="@+id/I2"
+                style="@style/tableRow2"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/I3"
+                style="@style/tableRow3"
+                android:textColor="@color/red" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow1">
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/f1" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/o" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/f2" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/o" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/f3" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/o" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow2">
+
+            <EditText
+                android:id="@+id/d1"
+                style="@style/tableRow1"
+                android:textColor="@color/gry" />
+
+            <EditText
+                android:id="@+id/d2"
+                style="@style/tableRow2"
+                android:textColor="@color/green" />
+
+            <EditText
+                android:id="@+id/d3"
+                style="@style/tableRow3"
+                android:textColor="@color/red" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow1">
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/p1" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/w" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/p2" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/w" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/p3" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/w" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow2">
+
+            <TextView
+                android:id="@+id/p1"
+                style="@style/tableRow1"
+                android:textColor="@color/gry" />
+
+            <TextView
+                android:id="@+id/p2"
+                style="@style/tableRow2"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/p3"
+                style="@style/tableRow3"
+                android:textColor="@color/red" />
+        </TableRow>
+
+        <TableRow
+
+            style="@style/marginRow1">
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/pt" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/w" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/qt" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/var" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/f" />
+
+            <TextView
+                style="@style/tableRow"
+                android:text="@string/hz" />
+        </TableRow>
+
+        <TableRow style="@style/marginRow2">
+
+            <TextView
+                android:id="@+id/pt"
+                style="@style/tableRow1"
+                android:textColor="@color/gry" />
+
+            <TextView
+                android:id="@+id/qt"
+                style="@style/tableRow2"
+                android:text="--"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/f"
+                style="@style/tableRow3"
+                android:text="50"
+                android:textColor="@color/red" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

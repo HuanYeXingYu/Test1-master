@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+
+    android:orientation="horizontal">
+
+    <include layout="@layout/left_show" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/right1"
+
+                style="@style/radioGro"
+
+                android:text="常规" />
+
+            <RadioButton
+                android:id="@+id/right2"
+                style="@style/radioGro"
+                android:text="矢量图" />
+
+            <RadioButton
+                android:id="@+id/right3"
+                style="@style/radioGro"
+                android:text="谐波" />
+
+            <RadioButton
+                android:id="@+id/right4"
+
+                style="@style/radioGro"
+                android:text="误差" />
+
+            <RadioButton
+                android:id="@+id/right5"
+
+                style="@style/radioGro"
+                android:text="其他" />
+
+            <RadioButton
+                android:id="@+id/right6"
+                style="@style/radioGro"
+                android:text="补偿" />
+
+        </RadioGroup>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

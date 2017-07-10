@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="被检表常数:" />
+
+            <Spinner style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="检定数:" />
+
+            <Spinner style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="分频系数:" />
+
+            <Spinner style="@style/r5_t1" />
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView style="@style/r5_t1" />
+
+            <Button
+                style="@style/r5_t1"
+                android:text="开始" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="显示" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="误差次数：" />
+            <TextView
+                style="@style/r5_t1"
+                android:textColor="@android:color/holo_red_light"
+                android:text="----" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/r5_t1"
+                android:text="误差值：" />
+            <TextView
+                style="@style/r5_t1"
+                android:textColor="@android:color/holo_red_light"
+                android:text="----" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
